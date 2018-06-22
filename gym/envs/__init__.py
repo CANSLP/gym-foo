@@ -1,4 +1,2 @@
-register(
-   	id='Jumper-v0',
-   	entry_point='gym.envs.classic_control:JumperEnv',
-)
+
+from gym_foo.envs.classic_control import JumperEnv
