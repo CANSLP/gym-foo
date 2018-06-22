@@ -1,4 +1,4 @@
 register(
-   	id='MyEnv-v0',
-   	entry_point='gym.envs.my_collection:MyEnv',
+   	id='Jumper-v0',
+   	entry_point='gym.envs.classic_control:JumperEnv',
 )
