@@ -250,14 +250,14 @@ class JumperEnv(gym.Env):
         if self.viewer: self.viewer.close()
 
 
-jumper = JumperEnv();
-jumper.reset()
-for tick in range(200):
-    ac = 0
-    if random.randint(0,5) < 2:
-        ac = random.randint(0,1)
-        jumper.step(ac)
-        jumper.render()
-    time.sleep(1/50)
-
-jumper.close()
+##jumper = JumperEnv();
+##jumper.reset()
+##for tick in range(200):
+##    ac = 0
+##    if random.randint(0,5) < 2:
+##        ac = random.randint(0,1)
+##        jumper.step(ac)
+##        jumper.render()
+##    time.sleep(1/50)
+##
+##jumper.close()
