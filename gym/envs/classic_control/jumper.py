@@ -18,10 +18,6 @@ import numpy as np
 
 from gym.envs.registration import register
 
-register(
-    id='Jumper-v0',
-    entry_point='jumper.jumper:Jumper',
-)
 
 class JumperEnv(gym.Env):
     metadata = {
